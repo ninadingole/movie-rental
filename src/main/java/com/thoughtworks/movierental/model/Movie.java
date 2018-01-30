@@ -40,4 +40,7 @@ public class Movie {
     return title;
   }
 
+  boolean isNewRelease() {
+    return getPriceCode() == NEW_RELEASE;
+  }
 }

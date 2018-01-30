@@ -8,7 +8,7 @@
         <class>com.thoughtworks.movierental.model.Movie</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:./rental_db" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:./rental_test_db" />
             <property name="javax.persistence.jdbc.user" value="sa" />
             <property name="javax.persistence.jdbc.password" value="sa" />
             <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
